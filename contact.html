@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact Me</title>
+    <title>Swoop : Contact</title>
 
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
@@ -18,32 +18,66 @@
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Work+Sans" rel="stylesheet">
+    </head>
 
-</head>
-<body>
+
+<body class="contact">
     
+<nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="bio.html">Bio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</nav>
+
+<div class="decor"></div>
+<main>  
+
 <h1>Contact Me</h1>
+  <p>Are you interested in working with me? Want to know more about my creations? Would you like to schedule a complimentary cosultation? Just want to chat? Here’s my all-in-one contact form to cater your needs. All you have to do is fill out the form below and watch your email for my reply. I’d love to hear your questions, concerns or pearls of wisdom. </p>
 <form action="https://formspree.io/nnaiviv@eagles.ewu.edu" method="POST">
     <label for="name">Name</label>
     <input type="text" name="name">
 
-    <label for="_replyto">Email</label>    
+    <label for="_replyto">E-mail</label>    
     <input type="email" name="_replyto">
+    
+  <label for="_text">Message</label>
+     <textarea name="_text"></textarea>
 
-    <input type="submit" value="Send it">
+    <input type="submit" value="Send">
+    
 
 <!--Hidden form-->
 <input type="hidden" name="_subject" value="New submission!" />
 
 
   </form>
+ <div id="social"> 
+      <a id="fb" href="https://www.facebook.com/naivizzle?ref=bookmarks"> <img src="img/fb.png" alt="fb" ></a>
+      
+      <a id="insta" href="https://www.instagram.com/naivizzle/"> <img src="img/i.png" alt="insta" ></a>   
+      
+   <a id="twitter" href="https://twitter.com/naivizzle"> <img src="img/t.png" alt="twitter" > </a>
+  </div>
+      
+    <p id="contact">You may also ontact me through my linked social media, or just follow for fun!
+  </p>  
 
-<!-- jQuery -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<!-- Plugins -->
-<!-- My Scripts -->
-<script src="/js/scripts.js"></script>
+  
+</main>
+<footer>
+  <p>&copy; Copyright <span>0000</span> </p> 
+</footer>
 
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Plugins -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+
+    <!-- My Scripts -->
+    <script src="js/scripts.js"></script>
 </body>
 </html>
